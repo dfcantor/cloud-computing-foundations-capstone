@@ -1,0 +1,54 @@
+{
+    "configurations": [
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "API lambda-shapeseekr-regform:HelloWorldFunction (python3.9)",
+            "invokeTarget": {
+                "target": "api",
+                "templatePath": "/home/ec2-user/environment/lambda-shapeseekr-regform/template.yaml",
+                "logicalId": "HelloWorldFunction"
+            },
+            "api": {
+                "path": "/hello",
+                "httpMethod": "get",
+                "payload": {
+                    "json": {}
+                }
+            },
+            "lambda": {
+                "runtime": "python3.9"
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "lambda-shapeseekr-regform:HelloWorldFunction (python3.9)",
+            "invokeTarget": {
+                "target": "template",
+                "templatePath": "/home/ec2-user/environment/lambda-shapeseekr-regform/template.yaml",
+                "logicalId": "HelloWorldFunction"
+            },
+            "lambda": {
+                "payload": {},
+                "environmentVariables": {},
+                "runtime": "python3.9"
+            }
+        },
+        {
+            "type": "aws-sam",
+            "request": "direct-invoke",
+            "name": "testlambda-python3.9:HelloWorldFunction (python3.9)",
+            "invokeTarget": {
+                "target": "template",
+                "templatePath": "testlambda-python3.9/template.yaml",
+                "logicalId": "HelloWorldFunction"
+            },
+            "lambda": {
+                "payload": {},
+                "environmentVariables": {},
+                "runtime": "python3.9"
+            }
+        }
+    ]
+}

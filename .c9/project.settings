@@ -1,0 +1,76 @@
+{
+    "aws": {
+        "@awsToolkit": true
+    },
+    "build": {
+        "@saveall": true
+    },
+    "extensions": {
+        "@aws.profile": "",
+        "@editor.acceptSuggestionOnEnter": "on",
+        "@editor.snippetSuggestions": "top",
+        "@editor.suggest.preview": true,
+        "@editor.suggest.showMethods": true,
+        "@git.autofetch": true
+    },
+    "instance": {
+        "@automaticShutdown": "30"
+    },
+    "language": {
+        "tern_defs": {
+            "json()": {
+                "browser": {
+                    "enabled": true
+                },
+                "ecma5": {
+                    "enabled": true
+                },
+                "jQuery": {
+                    "enabled": true
+                }
+            }
+        }
+    },
+    "launchconfigurations": {
+        "@currentconfig": ""
+    },
+    "preview": {
+        "@url": "https://shapeseekr.vfs.cloud9.us-east-1.amazonaws.com"
+    },
+    "python": {
+        "@path": "/usr/local/lib/python3.4/dist-packages:/usr/local/lib/python3.5/dist-packages"
+    },
+    "run": {
+        "configs": {
+            "@inited": "true",
+            "json()": {}
+        }
+    },
+    "welcome": {
+        "@first": true
+    },
+    "workspace": {
+        "@folders": [
+            {
+                "name": "scaffold",
+                "path": "/scaffold"
+            },
+            {
+                "name": "github-actions-demo",
+                "path": "/github-actions-demo"
+            },
+            {
+                "name": "shapeseekr_landing_form",
+                "path": "/shapeseekr_landing_form"
+            },
+            {
+                "name": "aws-elastic-beanstalk-cli-setup",
+                "path": "/aws-elastic-beanstalk-cli-setup"
+            },
+            {
+                "name": "cloud-computing-foundations-capstone",
+                "path": "/cloud-computing-foundations-capstone"
+            }
+        ]
+    }
+}
